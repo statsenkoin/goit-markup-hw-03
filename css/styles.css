@@ -100,6 +100,8 @@ button {
   color: var(--color-logo-footer);
 }
 
+/* ----- header ----- */
+
 .header-line .link {
   font-weight: 500;
   line-height: 1.14;
@@ -114,6 +116,8 @@ button {
   /* color: var(--color-text-main); */
   color: inherit;
 }
+
+/* ----- footer ----- */
 
 .footer-line address {
   font-style: normal;
@@ -132,19 +136,23 @@ button {
   color: var(--color-text-contacts);
 }
 
+.footer-line {
+  background-color: var(--color-background-footer);
+}
+
+/* ----- header + footer ----- */
+
 .link.current,
 .link:hover,
 .link:focus {
   color: var(--color-text-accent);
 }
 
-.footer-line {
-  background-color: var(--color-background-footer);
-}
-
 /* ===== Блок main ===== */
 
-/* Блок main в index.html */
+/* ----- Блок main в index.html ----- */
+
+/* hero */
 
 .hero {
   background-color: var(--color-background-footer);
@@ -176,6 +184,8 @@ button {
   background-color: var(--color-button-logo-background-focus);
 }
 
+/* features */
+
 .feature-title {
   font-weight: 700;
   font-size: 14px;
@@ -189,6 +199,8 @@ button {
   line-height: 1.71;
 }
 
+/* activity */
+
 .activity-title,
 .team-title {
   font-weight: 700;
@@ -197,6 +209,8 @@ button {
   text-align: center;
   color: var(--color-text-title);
 }
+
+/* team */
 
 .team-member {
   font-weight: 500;
@@ -217,7 +231,9 @@ button {
   background-color: var(--color-background-secondary);
 }
 
-/* Блок main в portfolio.html */
+/* ----- Блок main в portfolio.html ----- */
+
+/* filter buttons */
 
 .filter-list .button {
   font-weight: 500;
@@ -235,6 +251,8 @@ button {
   background-color: var(--color-button-background-focus);
   box-shadow: var(--color-button-filter-shadow);
 }
+
+/* project list */
 
 .project-title {
   font-weight: 700;
