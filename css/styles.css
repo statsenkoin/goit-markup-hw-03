@@ -102,14 +102,12 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-block: 94px;
 }
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-inline: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,8 +146,7 @@ img {
 
 .header-line .link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-block: 32px;
 
   font-weight: 500;
   line-height: 1.14;
@@ -295,7 +292,7 @@ img {
 }
 
 .feature-list > .list-item {
-  width: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .feature-title {
