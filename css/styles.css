@@ -80,10 +80,9 @@ p {
 
 button {
   font-family: var(--font-main);
-  font-style: normal;
   cursor: pointer;
   border-radius: 4px;
-  border-style: none;
+  border: none;
 }
 
 img {
@@ -109,9 +108,8 @@ img {
 
 .container {
   width: 1200px;
-  padding-inline: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* ===== Блоки header + footer ===== */
@@ -189,10 +187,8 @@ img {
 
 /* ----- footer ----- */
 
-.address-box {
-  width: 231px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.footer-line {
+  padding-block: 60px;
 }
 
 .footer-line address {
@@ -325,7 +321,7 @@ img {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.16;
   text-align: center;
   color: var(--color-text-title);
 }
@@ -360,24 +356,24 @@ img {
   margin-right: 30px;
 }
 
-.team-member {
-  margin-top: 30px;
+.team-card {
+  padding: 30px 0;
+  text-align: center;
+}
 
+.team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   color: var(--color-text-title);
 }
 
 .member-activity {
   margin-top: 10px;
-  margin-bottom: 30px;
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 
 /* ----- Блок main в portfolio.html ----- */
