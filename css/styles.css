@@ -330,7 +330,7 @@ img {
   color: var(--color-text-title);
 }
 .activity-list > .list-item {
-  flex-basis: ((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .activity-list > .list-item:not(:last-child) {
@@ -349,7 +349,7 @@ img {
 }
 
 .team-list > .list-item {
-  flex-basis: ((100% - 90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 
   background-color: var(--color-background-primary);
   box-shadow: var(--color-card-shadow);
