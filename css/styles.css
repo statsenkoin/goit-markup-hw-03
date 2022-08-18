@@ -88,6 +88,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -288,11 +290,13 @@ img {
 
 .feature-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .feature-list > .list-item {
   flex-basis: calc((100% - 90px) / 4);
+}
+.feature-list > .list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .feature-title {
@@ -314,7 +318,6 @@ img {
 
 .activity-list {
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -326,6 +329,13 @@ img {
   text-align: center;
   color: var(--color-text-title);
 }
+.activity-list > .list-item {
+  width: ((100% - 60px) / 3);
+}
+
+.activity-list > .list-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* team */
 
@@ -335,14 +345,19 @@ img {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
 }
 
 .team-list > .list-item {
+  width: ((100% - 90px) / 4);
+
   background-color: var(--color-background-primary);
   box-shadow: var(--color-card-shadow);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-list > .list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-member {
